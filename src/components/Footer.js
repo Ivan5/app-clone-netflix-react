@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Icon } from "react-icons-kit";
 import { iosWorld } from "react-icons-kit/ionicons/iosWorld";
@@ -20,66 +19,66 @@ class Footer extends Component {
     return (
       <FooterContainer>
         <span>
-          Questions? <Link>Call 4546-45465-45</Link>
+          Questions? <a>Call 4546-45465-45</a>
         </span>
         <div className="footer-columns">
           <ul>
             <li>
-              <Link>FAQ</Link>
+              <a>FAQ</a>
             </li>
             <li>
-              <Link>Invest</Link>
+              <a>Invest</a>
             </li>
             <li>
-              <Link>Ways to Watch</Link>
+              <a>Ways to Watch</a>
             </li>
             <li>
-              <Link>Coorporate</Link>
+              <a>Coorporate</a>
             </li>
             <li>
-              <Link>Netflix Originals</Link>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <Link>FAQ</Link>
-            </li>
-            <li>
-              <Link>Invest</Link>
-            </li>
-            <li>
-              <Link>Ways to Watch</Link>
-            </li>
-            <li>
-              <Link>Coorporate</Link>
+              <a>Netflix Originals</a>
             </li>
           </ul>
           <ul>
             <li>
-              <Link>FAQ</Link>
+              <a>FAQ</a>
             </li>
             <li>
-              <Link>Invest</Link>
+              <a>Invest</a>
             </li>
             <li>
-              <Link>Ways to Watch</Link>
+              <a>Ways to Watch</a>
             </li>
             <li>
-              <Link>Coorporate</Link>
+              <a>Coorporate</a>
             </li>
           </ul>
           <ul>
             <li>
-              <Link>FAQ</Link>
+              <a>FAQ</a>
             </li>
             <li>
-              <Link>Invest</Link>
+              <a>Invest</a>
             </li>
             <li>
-              <Link>Ways to Watch</Link>
+              <a>Ways to Watch</a>
             </li>
             <li>
-              <Link>Coorporate</Link>
+              <a>Coorporate</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a>FAQ</a>
+            </li>
+            <li>
+              <a>Invest</a>
+            </li>
+            <li>
+              <a>Ways to Watch</a>
+            </li>
+            <li>
+              <a>Coorporate</a>
             </li>
           </ul>
           <div className="lang-btn" onClick={this.handleToggle}>
